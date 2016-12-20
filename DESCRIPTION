@@ -2,9 +2,12 @@ Package: fastqcTheoreticalGC
 Version: 0.0.1
 Title: Generate theoretical GC content
 Description: R package for generating theoretical GC content
-    for the FASTQC module, to be displayed by
-    MultiQC
+    for the FASTQC module, to be displayed by MultiQC.
 Author: Michael Love
 Maintainer: Michael Love <michaelisaiahlove@gmail.com>
-License: MIT
+Depends:
+    GenomicRanges,
+    BSgenome,
+    Biostrings
+License: MIT + file LICENSE
 RoxygenNote: 5.0.1

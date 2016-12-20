@@ -10,11 +10,12 @@ generateDistn(seqs, genome, nchrom, file = "fastqc_theoretical_gc.txt",
 \arguments{
 \item{seqs}{a DNAStringSet of the sequences to simulate
 read from. E.g. for RNA-seq, the transcripts, which
-can be generated with \code{\link{extractTranscriptSeqs}},
-see the example script located in \code{inst/script/human_mouse.R}}
+can be generated with \code{extractTranscriptSeqs}
+from the GenomicFeatures package.
+See the example script located in \code{inst/script/human_mouse.R}}
 
-\item{genome}{a BSgenome object,
-see the example script located in \code{inst/script/human_mouse.R}}
+\item{genome}{a BSgenome object.
+See the example script located in \code{inst/script/human_mouse.R}}
 
 \item{nchrom}{the number of chromosomes from the genome to simulate
 reads from}

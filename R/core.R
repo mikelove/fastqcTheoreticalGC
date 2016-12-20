@@ -11,10 +11,11 @@
 #' 
 #' @param seqs a DNAStringSet of the sequences to simulate
 #' read from. E.g. for RNA-seq, the transcripts, which
-#' can be generated with \code{\link{extractTranscriptSeqs}},
-#' see the example script located in \code{inst/script/human_mouse.R}
-#' @param genome a BSgenome object,
-#' see the example script located in \code{inst/script/human_mouse.R}
+#' can be generated with \code{extractTranscriptSeqs}
+#' from the GenomicFeatures package.
+#' See the example script located in \code{inst/script/human_mouse.R}
+#' @param genome a BSgenome object.
+#' See the example script located in \code{inst/script/human_mouse.R}
 #' @param nchrom the number of chromosomes from the genome to simulate
 #' reads from
 #' @param file the path of the file to write out
