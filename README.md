@@ -52,6 +52,7 @@ for quality control testing purposes.
 If however, you want to estimate a theoretical distribution for RNA-seq 
 which takes all of these other factors into acccount, you can use the 
 Biconductor package [alpine](http://bioconductor.org/packages/alpine),
+which implements the methods of [this paper](http://www.nature.com/nbt/journal/v34/n12/full/nbt.3682.html),
 and the `plotGC` function which can generate these distributions, conditional
 on sample-specific transcript expression, positional bias, 
 random hexamer priming bias, etc.
