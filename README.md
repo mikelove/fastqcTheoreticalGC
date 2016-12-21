@@ -49,10 +49,11 @@ From my personal research into DNA-seq and RNA-seq sequence bias,
 I believe that these simplifying assumptions are not of practical 
 consquence for coming up with a theoretical distribution of GC content 
 for quality control testing purposes.
-If however, you want to estimate a theoretical distribution for RNA-seq 
-which takes all of these other factors into acccount, you can use the 
-Biconductor package [alpine](http://bioconductor.org/packages/alpine),
+
+If however, you want to plot the observed over expected GC content 
+distribution for RNA-seq taking all of these other biases into acccount, 
+you could use the Biconductor package [alpine](http://bioconductor.org/packages/alpine),
 which implements the methods of [this paper](http://www.nature.com/nbt/journal/v34/n12/full/nbt.3682.html),
-and the `plotGC` function which can generate these distributions, conditional
-on sample-specific transcript expression, positional bias, 
-random hexamer priming bias, etc.
+and the `plotGC` function. The estimated fragment rate over GC 
+is plotted, conditioned on sample-specific transcript expression, 
+positional bias, random hexamer priming bias, etc.
